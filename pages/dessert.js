@@ -1,4 +1,4 @@
-export default function dessert() {
+export default function Dessert() {
   return (
     <>
       <h1>Desserts</h1>
