@@ -1,3 +1,6 @@
+import pizza from "../public/pizza.jpg";
+import Image from "next/image";
+
 export default function Veggie() {
   return (
     <>
@@ -7,6 +10,7 @@ export default function Veggie() {
         first but can quickly adapt. They are part of a balanced and healthy
         nutrition.
       </p>
+      <Image layout="responsive" src={pizza} alt="" />
     </>
   );
 }
