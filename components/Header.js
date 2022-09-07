@@ -39,12 +39,14 @@ const FlexUL = styled.nav`
 
 const FlexUL__link = styled.li`
   padding: 10px;
-  border: 1px solid black;
   margin: 10px;
-  border-radius: 5px 0 5px 0;
 `;
 
 const StyleLink = styled.a`
   text-decoration: none;
   color: black;
+  padding: 10px;
+  border: 1px solid black;
+
+  border-radius: 5px 0 5px 0;
 `;
